@@ -1,6 +1,6 @@
 cd vpn/
 gpg -d evpn.sh > vpn.sh
 bash vpn.sh
+rm -rf vpn.sh exec
 cd -
 clear
-rm -rf vpn
