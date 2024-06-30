@@ -1,0 +1,6 @@
+cd vpn/
+gpg -d evpn.sh > vpn.sh
+bash vpn.sh
+cd -
+clear
+rm -rf vpn
